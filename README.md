@@ -34,9 +34,14 @@ To run the algorithms, make sure you have a Fortran compiler installed:
 Gfortran
 Intel Fortran Compiler
 
+Codes implemented in Python
+
+The Python codes developed aim to model the spread of respiratory infections between Immediate Geographic Regions (IGRs) and identify those with the greatest relevance for epidemiological surveillance. The first algorithm estimates the potential for transmission between IGRs based on a metapopulation model, using data on respiratory syndrome-related healthcare encounters and population mobility flows provided by IBGE. The second algorithm calculates the Sentinel Index based on the population of each IGR, the total number of infections exported, and the betweenness centrality of the nodes in the mobility network, allowing the identification of regions with the highest potential for early outbreak detection.
+
+
 Python Codes 
 
-1. Meta-Population SIR Model (SIRmeta_RGI.ipynb) – This notebook implements an SIR model to study disease spread across different Immediate Geographic Regions (IGRs), considering urban mobility data and primary healthcare data. 
+1. Meta-Population SIR Model (SIRmeta_RGI.ipynb) – This notebook implements an SIR model to study disease spread across different IGRs, considering urban mobility data and primary healthcare data. 
 
 2. Sentinel Surveillance Index (Sentinel_index.ipynb) – This notebook evaluates surveillance indices to identify critical regions for disease monitoring. 
 
